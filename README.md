@@ -31,7 +31,7 @@ import HPAlertController
 
 ## Usage
 
-Using HPAlertController is simple, very much like using `UIAlertController`. Simply make an instance of `HPAlertController` with the info you want to be presented, add the actions from which to choose, and present the alert using the `present(_:animated:completion:) method`.
+Using HPAlertController is simple, very much like using `UIAlertController`. Simply make an instance of `HPAlertController` with the info you want to be presented, add the actions from which to choose, and present the alert using the `present(_:animated:completion:)` method.
 
 ```swift
 let alert = HPAlertController(title: "Successful",
