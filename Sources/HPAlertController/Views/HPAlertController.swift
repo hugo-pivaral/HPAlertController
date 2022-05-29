@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HPAlertController: UIViewController {
+public class HPAlertController: UIViewController {
     
     // MARK: - PROPERTIES
     
@@ -52,7 +52,7 @@ class HPAlertController: UIViewController {
 
     // MARK: - INITIALIZERS
     
-    init(title: String?, message: String?, icon: HPAlertIcon = .none, alertTintColor: HPAlertColor = .default) {
+    public init(title: String?, message: String?, icon: HPAlertIcon = .none, alertTintColor: HPAlertColor = .default) {
         super.init(nibName: nil, bundle: nil)
         self.alertTintColor = alertTintColor.rawValue
         self.alertMessage = message

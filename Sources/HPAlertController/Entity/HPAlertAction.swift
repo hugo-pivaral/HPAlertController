@@ -7,13 +7,13 @@
 
 import UIKit
 
-class HPAlertAction: NSObject {
+public class HPAlertAction: NSObject {
     
     private(set) var title: String!
     private(set) var style: HPAlertAction.Style!
     private(set) var handler: () -> Void
     
-    init(title: String, style: HPAlertAction.Style = .default, handler: @escaping () -> Void = {}) {
+    public init(title: String, style: HPAlertAction.Style = .default, handler: @escaping () -> Void = {}) {
         self.title = title
         self.style = style
         self.handler = handler
