@@ -17,11 +17,11 @@ public enum HPAlertIcon: Equatable {
     public var rawValue: UIImage? {
         switch self {
         case .error:
-            return UIImage(named: "error")
+            return UIImage(named: "error", in: Bundle.module, with: .none)
         case .info:
-            return UIImage(named: "info")
+            return UIImage(named: "info", in: Bundle.module, with: .none)
         case .success:
-            return UIImage(named: "success")
+            return UIImage(named: "success", in: Bundle.module, with: .none)
         case .custom(let icon):
             return icon
         case .none:
