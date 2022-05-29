@@ -1,7 +1,7 @@
 <p>
-<img src="https://img.shields.io/badge/Platform-iOS_15+-blue.svg" alt="Platform: iOS 15.0+" />
+<a href="https://developer.apple.com/ios" target="_blank"><img src="https://img.shields.io/badge/Platform-iOS_15+-blue.svg" alt="Platform: iOS 15.0+" /></a>
 <a href="https://developer.apple.com/swift" target="_blank"><img src="https://img.shields.io/badge/Language-Swift_5-orange.svg" alt="Language: Swift 5" /></a>
-<img src="https://img.shields.io/badge/License-MIT-blueviolet.svg" alt="License: MIT" />
+<a href="https://github.com/hugo-pivaral/HPAlertController/blob/main/LICENSE" target="_blank"><img src="https://img.shields.io/badge/License-MIT-blueviolet.svg" alt="License: MIT" /></a>
 </p>
 
 # HPAlertController
@@ -55,3 +55,5 @@ present(alert, animated: true)
 ## Author
 
 [Hugo Pivaral](https://hugop.dev)
+
+
