@@ -56,4 +56,6 @@ present(alert, animated: true)
 
 [Hugo Pivaral](https://hugop.dev)
 
+## License
 
+HPAlertController is under the MIT license. See [LICENSE](./LICENSE) for details.
